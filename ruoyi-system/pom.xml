@@ -23,6 +23,12 @@
             <artifactId>ruoyi-common</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>com.ghgande.j2mod</groupId>
+            <artifactId>j2mod</artifactId>
+            <version>2.5.4-SNAPSHOT</version>
+        </dependency>
+
     </dependencies>
 
 </project>
