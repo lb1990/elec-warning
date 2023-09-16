@@ -17,7 +17,7 @@ public class ModbusTCPExample {
 
             // 创建Modbus请求并执行
             ModbusTCPTransaction transaction = new ModbusTCPTransaction(connection);
-            transaction.setRequest(new WriteSingleRegisterRequest(40001, new SimpleRegister(12345)));
+            transaction.setRequest(new WriteSingleRegisterRequest(0, new SimpleRegister(12345)));
 //            transaction.setRequest(new net.wimpi.modbus.msg.WriteSingleRegisterRequest(40001, new SimpleRegister(12345)));
             transaction.execute();
 
